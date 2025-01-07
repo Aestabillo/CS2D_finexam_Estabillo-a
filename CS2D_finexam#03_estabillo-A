@@ -1,0 +1,13 @@
+let names = ["Genevieve", "Juan", "Luna", "Gabriel", "Elise"];
+let ages = [24, 65, 21, 5, 9];
+
+//Restructure the array
+let restructuredArray = [];
+for (let i = 0; i < names.length; i++) {
+  restructuredArray.push([names[i], ages[i]]);
+}
+
+// Log the restructured array to the console
+for (let i = 0; i < restructuredArray.length; i++) {
+  console.log(restructuredArray[i]);
+}
